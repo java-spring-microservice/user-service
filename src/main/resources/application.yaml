@@ -20,7 +20,7 @@ spring:
     import: 'optional:configserver:'
   cloud:
     config:
-      name: local-env-config, prod-env-config
+      name: local-env-config
       uri:
       - http://localhost:8088
 
